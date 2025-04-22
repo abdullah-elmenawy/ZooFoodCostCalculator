@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Console", "ZooFoodCostCalculator.Console\ZooFoodCostCalculator.Console.csproj", "{0DA5237E-CEF1-4007-AECC-3925FE927F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Infrastructure", "ZooFoodCostCalculator.Infrastructure\ZooFoodCostCalculator.Infrastructure.csproj", "{E24C9EB7-C780-4DC2-8911-50601E18BC45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Application", "ZooFoodCostCalculator.Application\ZooFoodCostCalculator.Application.csproj", "{85ED53DC-F0E5-4CD2-BF27-E59C591DFDFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Domain", "ZooFoodCostCalculator.Domain\ZooFoodCostCalculator.Domain.csproj", "{6A36D949-E13C-4E3B-A814-4672D6264458}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{B3B9753E-990F-4008-8B0F-7D392E57082F}"
+	ProjectSection(SolutionItems) = preProject
+		Files\animals.csv = Files\animals.csv
+		Files\prices.txt = Files\prices.txt
+		Files\zoo.xml = Files\zoo.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Common", "ZooFoodCostCalculator.Common\ZooFoodCostCalculator.Common.csproj", "{DB3D6C3A-814A-4BF9-BBDF-7AB8C1E265A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Application.Tests", "ZooFoodCostCalculator.Application.Tests\ZooFoodCostCalculator.Application.Tests.csproj", "{585A9723-6BC8-47F7-A691-87CD81F0F505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Common.Tests", "ZooFoodCostCalculator.Common.Tests\ZooFoodCostCalculator.Common.Tests.csproj", "{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Console.Tests", "ZooFoodCostCalculator.Console.Tests\ZooFoodCostCalculator.Console.Tests.csproj", "{A4A815CB-DC14-4B8B-B439-97D4F59A0A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Domain.Tests", "ZooFoodCostCalculator.Domain.Tests\ZooFoodCostCalculator.Domain.Tests.csproj", "{4DD72D41-82F3-4094-8B34-3AE46CB84011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooFoodCostCalculator.Infrastructure.Tests", "ZooFoodCostCalculator.Infrastructure.Tests\ZooFoodCostCalculator.Infrastructure.Tests.csproj", "{2221DB1E-B863-437F-853A-BC55CFE1E56C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DA5237E-CEF1-4007-AECC-3925FE927F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA5237E-CEF1-4007-AECC-3925FE927F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA5237E-CEF1-4007-AECC-3925FE927F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA5237E-CEF1-4007-AECC-3925FE927F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24C9EB7-C780-4DC2-8911-50601E18BC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24C9EB7-C780-4DC2-8911-50601E18BC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24C9EB7-C780-4DC2-8911-50601E18BC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24C9EB7-C780-4DC2-8911-50601E18BC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85ED53DC-F0E5-4CD2-BF27-E59C591DFDFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85ED53DC-F0E5-4CD2-BF27-E59C591DFDFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85ED53DC-F0E5-4CD2-BF27-E59C591DFDFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85ED53DC-F0E5-4CD2-BF27-E59C591DFDFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A36D949-E13C-4E3B-A814-4672D6264458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A36D949-E13C-4E3B-A814-4672D6264458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A36D949-E13C-4E3B-A814-4672D6264458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A36D949-E13C-4E3B-A814-4672D6264458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB3D6C3A-814A-4BF9-BBDF-7AB8C1E265A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB3D6C3A-814A-4BF9-BBDF-7AB8C1E265A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB3D6C3A-814A-4BF9-BBDF-7AB8C1E265A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB3D6C3A-814A-4BF9-BBDF-7AB8C1E265A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{585A9723-6BC8-47F7-A691-87CD81F0F505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{585A9723-6BC8-47F7-A691-87CD81F0F505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{585A9723-6BC8-47F7-A691-87CD81F0F505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{585A9723-6BC8-47F7-A691-87CD81F0F505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A815CB-DC14-4B8B-B439-97D4F59A0A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A815CB-DC14-4B8B-B439-97D4F59A0A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A815CB-DC14-4B8B-B439-97D4F59A0A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A815CB-DC14-4B8B-B439-97D4F59A0A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD72D41-82F3-4094-8B34-3AE46CB84011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD72D41-82F3-4094-8B34-3AE46CB84011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD72D41-82F3-4094-8B34-3AE46CB84011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD72D41-82F3-4094-8B34-3AE46CB84011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2221DB1E-B863-437F-853A-BC55CFE1E56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2221DB1E-B863-437F-853A-BC55CFE1E56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2221DB1E-B863-437F-853A-BC55CFE1E56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2221DB1E-B863-437F-853A-BC55CFE1E56C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{585A9723-6BC8-47F7-A691-87CD81F0F505} = {D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}
+		{88D2AFD9-E56E-4EA6-BA34-9AFE9DBC4472} = {D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}
+		{A4A815CB-DC14-4B8B-B439-97D4F59A0A55} = {D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}
+		{4DD72D41-82F3-4094-8B34-3AE46CB84011} = {D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}
+		{2221DB1E-B863-437F-853A-BC55CFE1E56C} = {D2CEF7B7-6F5C-4CA3-A5E2-FF192AB4268C}
+	EndGlobalSection
+EndGlobal
